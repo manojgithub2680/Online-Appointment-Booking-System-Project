@@ -65,11 +65,29 @@ http://localhost:5173
 Accessing the Application
 
 # Notes
-
 Ensure MySQL is running before starting the backend.
 Recommended browsers: Chrome, Edge.
 Ports used: 8081 for backend, 5173 for frontend.
 
+
+#Steps to Upload a Project on GitHub
+
+
+**Step 1: Download and install Git from https://git-scm.com/downloads
+
+Step 2: Create a new repository in your GitHub account and give it a name.
+
+Step 3: Open your terminal, Git Bash, or command prompt and  navigate to your project folder using cd path/to/your/project
+
+Step 4: Initialize Git in your project folder by typing git init
+
+Step 5: Add all files in the project to staging by typing git add .
+
+Step 6: Commit the changes by typing git commit -m "Initial commit"
+
+Step 7: Copy the repository URL from GitHub and connect it using git remote add origin https://github.com/your-username/your-repo.git
+
+Step 8: Push the project to GitHub by typing git push -u origin master **
 
 ![alt text](postmansuccessfully.png) 
 ![alt text](deletesuccessfully.png)
